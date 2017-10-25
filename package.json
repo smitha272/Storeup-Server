@@ -1,0 +1,39 @@
+{
+  "name": "storeup-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "express": "^4.15.5",
+    "express-validator": "^0.4.1",
+    "formidable": "^1.0.15",
+    "fs-extra": "^0.12.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.19",
+    "morgan": "^1.8.2",
+    "mysql": "^2.2.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "description": "Node.js backend server - Storeup",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitha272/Storeup-Server.git"
+  },
+  "keywords": [
+    "backend",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitha272/Storeup-Server/issues"
+  },
+  "homepage": "https://github.com/smitha272/Storeup-Server#readme"
+}
