@@ -6,34 +6,26 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "cookie-parser": "^1.4.3",
-    "debug": "^2.6.9",
-    "express": "^4.15.5",
-    "express-validator": "^0.4.1",
-    "formidable": "^1.0.15",
-    "fs-extra": "^0.12.0",
+    "@google-cloud/vision": "^0.12.0",
+    "@google/maps": "^0.4.5",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-validator": "0.4.1",
+    "firebase-admin": "^5.4.3",
+    "formidable": "1.0.15",
+    "fs": "^0.0.1-security",
+    "fs-extra": "0.12.0",
+    "gcloud": "^0.37.2",
+    "google-cloud": "^0.57.0",
     "jade": "^1.11.0",
-    "mongodb": "^2.2.19",
-    "morgan": "^1.8.2",
-    "mysql": "^2.2.0",
-    "serve-favicon": "^2.4.5"
-  },
-  "description": "Node.js backend server - Storeup",
-  "main": "app.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smitha272/Storeup-Server.git"
-  },
-  "keywords": [
-    "backend",
-    "server"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/smitha272/Storeup-Server/issues"
-  },
-  "homepage": "https://github.com/smitha272/Storeup-Server#readme"
+    "google-distance": "^1.0.1",
+    "google-distance-matrix": "^1.0.0",
+    "json": "^9.0.6",
+    "mongodb": "2.2.19",
+    "morgan": "~1.8.1",
+    "mysql": "2.2.0",
+    "serve-favicon": "~2.4.2"
+  }
 }
