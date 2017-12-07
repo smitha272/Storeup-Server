@@ -9,8 +9,9 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var loginRegister = require('./routes/loginRegister');
 var ocr = require('./routes/ocr');
-var coupons = require('./routes/coupons')
-var store = require('./routes/store')
+var coupons = require('./routes/coupons');
+var store = require('./routes/store');
+var adminLoginRegister = require('./routes/adminloginRegister');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/loginRegister',loginRegister);
+app.use('/adminLoginRegister',adminLoginRegister);
 app.use('/ocr',ocr);
 app.use('/coupons',coupons);
 app.use('/store',store);
